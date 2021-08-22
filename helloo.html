@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+      crossorigin="anonymous"
+    />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <headder>
+      <h3>View Highscores</h3>
+      <h3 id="Time">Time</h3>
+    </headder>
+
+    <div class="wrapper">
+      <header>
+        <h1>Quiz</h1>
+        <br />
+        <br />
+        <button id="start" class="btn">Start Quiz</button>
+      </header>
+      <div class="card">
+        <div class="card-header">
+          <h2>Answer a question</h2>
+        </div>
+        <div class="card-body">
+          <textarea
+            readonly
+            id="question"
+            placeholder="Your questions will appear here"
+            aria-label="questions"
+          ></textarea>
+        </div>
+        <div class="card-footer">
+          <br />
+          <div id="AnswerDiv">
+            <input
+              id="answer"
+              type="text"
+              placeholder="Type your answer here."
+            />
+            <br />
+            <button id="check" class="btn">Check</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="my.js"></script>
+  </body>
+</html>
